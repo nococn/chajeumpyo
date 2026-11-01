@@ -170,5 +170,4 @@
 ## 7. 화면과의 연결
 
 - Figma: [찾음표 UI](https://www.figma.com/design/Pelc48hC1r9swz19IiNI8x) — 01 토큰·컴포넌트, 02 분실자 흐름, 03 PC. 습득자·관리자 화면은 2회차에서 추가한다.
-- QA 기준표와 다른 지점: [qa-conflicts](./qa-conflicts.md)
 - API 전체 목록: `/api/docs` (Swagger), [`docs/api/openapi.json`](./api/openapi.json)

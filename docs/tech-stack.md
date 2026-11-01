@@ -99,7 +99,6 @@
 │   ├── prisma/
 │   └── src/{routes,services,repositories,ai,lib}
 ├── packages/shared/   # zod 스키마·타입 (API 요청/응답, AI 응답 계약, 에러 코드)
-├── qa/                # 테스트 세트, 평가 스크립트 (Python)
 └── docs/
 ```
 
@@ -111,7 +110,7 @@ npm 워크스페이스로 묶어 `frontend`와 `backend`가 `packages/shared`를
 - **Supabase Auth**: 학교 이메일 인증 코드·체험 로그인·관리자 계정을 명세대로 직접 구현한다.
 - **별도 벡터 DB**(Pinecone 등): 데이터 규모상 pgvector로 충분하다.
 - **WebSocket 실시간 알림**: P0는 폴링으로 충분하다.
-- **react-leaflet, YOLO**: 라이선스 문제 (`docs/design/REFERENCES.md`).
+- **react-leaflet, YOLO**: 라이선스 문제.
 
 ## 10. 확정이 필요한 것
 
