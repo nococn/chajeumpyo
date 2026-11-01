@@ -137,7 +137,6 @@ flowchart LR
 ├── frontend/             # 화면 (습득자 found/, 분실자 lost/, 관리자 admin/, 서비스 소개 guide.html)
 ├── docs/                 # 결과보고서, 설계·보안·평가 문서, docs/api/openapi.json
 │   └── spec/             # 기능명세서, ERD, API명세서
-└── qa/                   # QA 통과 기준
 ```
 
 ## 로컬에서 실행하기
@@ -210,7 +209,6 @@ npm run dev                    # http://localhost:4000 (화면과 API를 함께 
 | [docs/demo-scenario.md](docs/demo-scenario.md) | 시연 시나리오 |
 | [docs/deploy.md](docs/deploy.md) | 배포 방법 |
 | [docs/security/THREAT-MODEL.md](docs/security/THREAT-MODEL.md) | 보호할 자산과 위협별 대응 |
-| [qa/CANONICAL-AC-PACK.md](qa/CANONICAL-AC-PACK.md) | QA 통과 기준 |
 | [docs/open-issues.md](docs/open-issues.md) | 명세 검토 이슈와 결정 이력 |
 
 ## AI 도구 사용
